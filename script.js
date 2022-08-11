@@ -72,8 +72,8 @@ console.log(slicedArray);
 const concatedArray = testArr1.concat(testArr2);
 console.log(concatedArray);
 
-//.flat - ha többdimenziós tömbünk van, a flat a paraméterként megadott szám alapjánadott 'mélységben / dimenzióban'
-//lapítja a tömböt, tehát a egy szintre helyezi a korábban mélyebben lévő tömbelemekt
+//.flat - ha többdimenziós tömbünk van, a flat a paraméterként megadott szám alapján adott 'mélységben / dimenzióban'
+//lapítja a tömböt, tehát egy szintre helyezi a korábban mélyebben lévő tömbelemekt
 
 const testArr3 = [1, 2, [3, 4], [5, 6, [7, 8]]];
 
