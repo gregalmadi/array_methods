@@ -49,8 +49,8 @@ console.log(testArr1);
 let testStrArray = ["körte", "alma", 3, "eper", 5, "banán", 2];
 let testStrArray2 = ["körte", "alma", "eper", "banán"];
 
-console.log(testStrArray.sort()); // string-number vegyes tömb esetén a numberek előre sorolva növekvő sorrendben, majd a stringet abs rendben szerepelnek
-console.log(testStrArray2.sort()); // string tömb esetén a numberek növekvő sorrendben szerepelnek
+console.log(testStrArray.sort()); // string-number vegyes tömb esetén a numberek előre sorolva növekvő sorrendben, majd a stringet abc rendben szerepelnek
+console.log(testStrArray2.sort()); // string tömb esetén a stringek abc sorrendben szerepelnek
 
 //----------------------------------------------------------------
 //B./ Tömb metódusok, amik új tömböt adnak vissza az eredeti alapján
